@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HelloComponent,
     InicioComponent,
     NavbarComponent,
+    LoginComponent,
   ],
   bootstrap: [AppComponent],
 })
