@@ -44,3 +44,10 @@ label {
 input {
   border-radius: 20px;
 }
+
+@media (max-width: 850px) {
+  .formulario > .container {
+    width: 80%;
+    margin: 30 auto;
+  }
+}
