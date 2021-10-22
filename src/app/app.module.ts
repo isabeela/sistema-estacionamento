@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,12 @@ import { InicioComponent } from './inicio/inicio.component';
     FormsModule,
     RouterModule.forRoot([{ path: 'inicio', component: InicioComponent }]),
   ],
-  declarations: [AppComponent, HelloComponent, InicioComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    InicioComponent,
+    NavbarComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
