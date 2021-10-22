@@ -43,6 +43,10 @@ input {
   margin: 5px 0;
 }
 
+.form-group{
+  text-align: left;
+}
+
 @media (max-width: 850px) {
   .formulario > .container {
     width: 80%;
