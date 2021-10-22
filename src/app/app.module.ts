@@ -12,7 +12,10 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([{ path: 'inicio', component: InicioComponent }]),
+    RouterModule.forRoot([
+      { path: '', component: AppComponent },
+      { path: 'inicio', component: InicioComponent },
+    ]),
   ],
   declarations: [
     AppComponent,
