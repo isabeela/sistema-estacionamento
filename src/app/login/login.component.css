@@ -61,7 +61,7 @@ input {
 
 @media (max-width: 850px) {
   .formulario > .container {
-    width: 80%;
+    width: 90%;
     margin: 30 auto;
   }
 }
