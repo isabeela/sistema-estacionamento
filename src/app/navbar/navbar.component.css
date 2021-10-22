@@ -5,34 +5,32 @@ header {
   top: 0;
 }
 
-#img-header{
- width: 50px;
- margin: 0 auto;
- margin-left: 45%;
+#img-header {
+  width: 50px;
+  margin: 0 auto;
+  margin-left: 45%;
 }
 
-
-input[type = "checkbox"] {
+input[type='checkbox'] {
   display: none;
 }
 
-input[type = "checkbox"]:checked ~ nav {
+input[type='checkbox']:checked ~ nav {
   transform: translateX(350px);
 }
 
-.menu{
+.menu {
   cursor: pointer;
 }
 
 nav {
-background-color: #373193;
-width: 250px;
-height: 100%;
-left: -380px;
-position: fixed;
-transition:  all .5s;
+  background-color: #373193;
+  width: 250px;
+  height: 100%;
+  left: -380px;
+  position: fixed;
+  transition: all 0.5s;
 }
-
 
 nav a {
   color: #fff;
@@ -45,7 +43,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 label {
   position: sticky;
   z-index: 1;
@@ -56,7 +53,6 @@ label img {
   cursor: pointer;
   margin-bottom: 15px;
 }
-
 
 ul {
   margin: 15px;
@@ -69,16 +65,15 @@ li {
   margin: 20px 0;
 }
 
-
 #logo {
   padding: 40px 0;
 }
 
-.logo  {
+.logo {
   color: #d2d1d1;
   font-size: 27px;
   margin-right: 10px;
-}  
+}
 
 i {
   color: #fff;
