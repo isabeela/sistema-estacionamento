@@ -29,10 +29,12 @@ body {
 
 .login > .btn-primary {
   width: 100%;
-  border-radius: 5px;
   margin: 20px 0;
   padding: 10px;
   background-color: #373193;
+  border: 1px solid #373193;
+  border-radius: 5px;
+  
 }
 
 
