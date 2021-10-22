@@ -17,7 +17,7 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: AppComponent },
-      { path: 'inicio', component: InicioComponent },
+      { path: 'inicio', component: MenuComponent },
       { path: 'login', component: LoginComponent },
     ]),
   ],
