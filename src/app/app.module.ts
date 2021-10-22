@@ -7,7 +7,6 @@ import { HelloComponent } from './hello.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
-import { TesteComponent } from './teste/teste.component';
 
 import { RouterModule } from '@angular/router';
 
@@ -27,7 +26,6 @@ import { RouterModule } from '@angular/router';
     InicioComponent,
     NavbarComponent,
     LoginComponent,
-    TesteComponent,
   ],
   bootstrap: [AppComponent],
 })
