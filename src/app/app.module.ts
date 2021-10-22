@@ -11,7 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([{ path: 'index', component: InicioComponent }]),
+    RouterModule.forRoot([{ path: 'index', component: InicioComponent },]),
   ],
   declarations: [AppComponent, HelloComponent, InicioComponent],
   bootstrap: [AppComponent],
