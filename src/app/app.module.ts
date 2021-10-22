@@ -18,6 +18,7 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       { path: '', component: AppComponent },
       { path: 'inicio', component: InicioComponent },
+      { path: 'login', component: LoginComponent}
     ]),
   ],
   declarations: [
