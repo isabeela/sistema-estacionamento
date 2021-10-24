@@ -20,6 +20,7 @@ import {ClienteComponent} from './cliente/cliente.component';
       { path: 'login', component: LoginComponent },
       { path: 'entrada', component: EntradaComponent },
       { path: 'saida', component: SaidaComponent },
+      { path: 'cliente', component: ClienteComponent}
   
     ]),
   ],
