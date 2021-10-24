@@ -21,7 +21,6 @@ import {ClienteComponent} from './cliente/cliente.component';
       { path: 'entrada', component: EntradaComponent },
       { path: 'saida', component: SaidaComponent },
       { path: 'cliente', component: ClienteComponent}
-  
     ]),
   ],
   declarations: [
