@@ -16,7 +16,7 @@ import { SaidaComponent } from './saida/saida.component';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: AppComponent },
+      { path: '', component: LoginComponent },
       { path: 'inicio', component: InicioComponent },
       { path: 'login', component: LoginComponent },
       { path: 'entrada', component: EntradaComponent },
