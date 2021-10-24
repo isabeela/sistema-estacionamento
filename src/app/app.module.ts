@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { EntradaComponent } from './entrada/entrada.component';
@@ -17,7 +16,6 @@ import { SaidaComponent } from './saida/saida.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: LoginComponent },
-      { path: 'inicio', component: InicioComponent },
       { path: 'login', component: LoginComponent },
       { path: 'entrada', component: EntradaComponent },
       { path: 'saida', component: SaidaComponent },
@@ -26,7 +24,6 @@ import { SaidaComponent } from './saida/saida.component';
   declarations: [
     AppComponent,
     HelloComponent,
-    InicioComponent,
     NavbarComponent,
     LoginComponent,
     EntradaComponent,
