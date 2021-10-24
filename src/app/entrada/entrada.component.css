@@ -15,3 +15,8 @@
 .lista-cadastro {
   margin: 20px 30px;
 }
+
+.modal-header {
+  background-color: #373193;
+  color: #fff;
+}
