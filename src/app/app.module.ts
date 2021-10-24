@@ -8,7 +8,6 @@ import { HelloComponent } from './hello.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
-import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   imports: [
@@ -16,7 +15,7 @@ import { MenuComponent } from './menu/menu.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: AppComponent },
-      { path: 'inicio', component: MenuComponent },
+      { path: 'inicio', component: InicioComponent },
       { path: 'login', component: LoginComponent },
     ]),
   ],
@@ -26,7 +25,6 @@ import { MenuComponent } from './menu/menu.component';
     InicioComponent,
     NavbarComponent,
     LoginComponent,
-    MenuComponent,
   ],
   bootstrap: [AppComponent],
 })
