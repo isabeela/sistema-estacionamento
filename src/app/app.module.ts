@@ -8,6 +8,7 @@ import { HelloComponent } from './hello.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
+import { EntradaComponent } from './entrada/entrada.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { LoginComponent } from './login/login.component';
       { path: '', component: AppComponent },
       { path: 'inicio', component: InicioComponent },
       { path: 'login', component: LoginComponent },
+      { path: 'entrada', component: EntradaComponent },
     ]),
   ],
   declarations: [
@@ -25,6 +27,7 @@ import { LoginComponent } from './login/login.component';
     InicioComponent,
     NavbarComponent,
     LoginComponent,
+    EntradaComponent,
   ],
   bootstrap: [AppComponent],
 })
