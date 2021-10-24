@@ -1,18 +1,16 @@
 <app-navbar> </app-navbar>
 
 <div class="titulo">
-  <h1>Entrada de Veículos</h1>
+  <h1> Cadastro de Clientes</h1>
 
-
-<button
-  type="button"
-  class="btn btn-primary"
-  data-bs-toggle="modal"
-  data-bs-target="#exampleModal"
->
-  Cadastrar veículo
-</button>
-
+  <button
+    type="button"
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    Cadastrar cliente
+  </button>
 </div>
 
 <div
@@ -25,7 +23,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Cadastro de veículos</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro de cliente </h5>
         <button
           type="button"
           class="btn-close"
@@ -36,7 +34,7 @@
       <div class="modal-body">
         <div class="form-group col-md-6">
           <label for="placa"> Placa </label>
-          <input type="text" class="form-control" id="nome" />
+          <input type="text" class="form-control" id="placa" />
 
           <label for="exampleDataList" class="form-label"> Marca </label>
           <input
@@ -76,30 +74,30 @@
   <table class="table caption-top">
     <thead class="table-dark">
       <tr>
-        <th scope="col"> Data/Hora </th>
-        <th scope="col"> Placa </th>
-        <th scope="col"> Modelo </th>
-        <th scope="col"> Cor </th>
+        <th scope="col">Data/Hora</th>
+        <th scope="col">Placa</th>
+        <th scope="col">Modelo</th>
+        <th scope="col">Cor</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row">1 </th>
-        <td> EBI-9827</td>
-        <td> Celta </td>
-        <td> #000 </td>
+        <th scope="row">1</th>
+        <td>EBI-9827</td>
+        <td>Celta</td>
+        <td>#000</td>
       </tr>
       <tr>
         <th scope="row">2</th>
-        <td> HEF-9827 </td>
-        <td> Corolla </td>
-        <td> #e3e3e3 </td>
+        <td>HEF-9827</td>
+        <td>Corolla</td>
+        <td>#e3e3e3</td>
       </tr>
       <tr>
         <th scope="row">3</th>
-        <td> EJH-3345 </td>
-        <td> Honda </td>
-        <td> #e3e9e8 </td>
+        <td>EJH-3345</td>
+        <td>Honda</td>
+        <td>#e3e9e8</td>
       </tr>
     </tbody>
   </table>
