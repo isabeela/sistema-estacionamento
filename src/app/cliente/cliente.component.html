@@ -1,3 +1,106 @@
-<p>
-cliente works!
-</p>
+<app-navbar> </app-navbar>
+
+<div class="titulo">
+  <h1>Entrada de Veículos</h1>
+
+
+<button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+>
+  Cadastrar veículo
+</button>
+
+</div>
+
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro de veículos</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group col-md-6">
+          <label for="placa"> Placa </label>
+          <input type="text" class="form-control" id="nome" />
+
+          <label for="exampleDataList" class="form-label"> Marca </label>
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="Pesquisar marca"
+          />
+          <datalist id="datalistOptions">
+            <option value="Celta"></option>
+            <option value="Honda"></option>
+            <option value="Corolla"></option>
+            <option value="Fox"></option>
+          </datalist>
+
+          <label for="exampleColorInput" class="form-label">Cor</label>
+          <input
+            type="color"
+            class="form-control form-control-color"
+            id="exampleColorInput"
+            value="#000"
+            title="Cor do veículo"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+          Salvar
+        </button>
+        <button type="button" class="btn btn-danger">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="lista-cadastro">
+  <table class="table caption-top">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col"> Data/Hora </th>
+        <th scope="col"> Placa </th>
+        <th scope="col"> Modelo </th>
+        <th scope="col"> Cor </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1 </th>
+        <td> EBI-9827</td>
+        <td> Celta </td>
+        <td> #000 </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td> HEF-9827 </td>
+        <td> Corolla </td>
+        <td> #e3e3e3 </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td> EJH-3345 </td>
+        <td> Honda </td>
+        <td> #e3e9e8 </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
