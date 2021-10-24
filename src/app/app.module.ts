@@ -9,6 +9,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { EntradaComponent } from './entrada/entrada.component';
+import { SaidaComponent } from './saida/saida.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { EntradaComponent } from './entrada/entrada.component';
       { path: 'inicio', component: InicioComponent },
       { path: 'login', component: LoginComponent },
       { path: 'entrada', component: EntradaComponent },
+      { path: 'saida', component: SaidaComponent },
     ]),
   ],
   declarations: [
@@ -28,6 +30,7 @@ import { EntradaComponent } from './entrada/entrada.component';
     NavbarComponent,
     LoginComponent,
     EntradaComponent,
+    SaidaComponent,
   ],
   bootstrap: [AppComponent],
 })
