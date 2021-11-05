@@ -14,7 +14,6 @@ export class NavbarComponent implements OnInit {
   currentLocale: any;
 
   isTwelveHrFormat: false;
-  test: any;
 
   constructor() {
     setInterval(() => {
