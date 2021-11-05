@@ -2,14 +2,10 @@ import { Injectable } from '@angular/core';
 import { timestamp } from 'rxjs/operators';
 
 interface Response {
-  time: {
-    update: string;
-  };
+  timestamp: Date;
 }
 
 @Injectable()
 export class VeiculoService {
-
-  constructor() { }
-
+  constructor() {}
 }

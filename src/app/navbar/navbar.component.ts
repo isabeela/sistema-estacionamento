@@ -7,7 +7,21 @@ import { VeiculoService } from '../veiculo.service';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
-  constructor(public veiculoService: VeiculoService) {}
+  date: string;
+  hours: any;
+  minutes: any;
+  seconds: any;
+  currentLocale: any;
+
+  isTwelveHrFormat: false;
+  test: any;
+
+  constructor() {
+    setInterval(() => {
+      const currentDate = new Date();
+      this.date = currentDate.toLocaleTimeString();
+    }, 1000);
+  }
 
   ngOnInit() {}
 }
