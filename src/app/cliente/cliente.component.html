@@ -1,7 +1,7 @@
 <app-navbar> </app-navbar>
 
 <div class="titulo">
-  <h1> Cadastro de Clientes</h1>
+  <h1>Cadastro de Clientes</h1>
 
   <button
     type="button"
@@ -23,7 +23,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Cadastro de cliente </h5>
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro de cliente</h5>
         <button
           type="button"
           class="btn-close"
@@ -39,28 +39,34 @@
           <label for="placa"> Email </label>
           <input type="email" class="form-control" id="email" />
 
-          <label for="exampleDataList" class="form-label"> Carro </label>
+          <label for="marca" class="form-label"> Carro </label>
           <input
             class="form-control"
-            list="datalistOptions"
-            id="exampleDataList"
+            list="opcMarca"
+            id="marca"
             placeholder="Pesquisar marca"
           />
-          <datalist id="datalistOptions">
+          <datalist id="opcMarca">
             <option value="Celta"></option>
             <option value="Honda"></option>
             <option value="Corolla"></option>
             <option value="Fox"></option>
           </datalist>
 
-          <label for="exampleColorInput" class="form-label">Cor</label>
+          <label for="cor" class="form-label"> Cor </label>
           <input
-            type="color"
-            class="form-control form-control-color"
-            id="exampleColorInput"
-            value="#000"
-            title="Cor do veículo"
+            class="form-control"
+            list="opcCor"
+            id="cor"
+            placeholder="Cor do veículo"
           />
+          <datalist id="opcCor">
+            <option value="Preto"></option>
+            <option value="Cinza"></option>
+            <option value="Branco"></option>
+            <option value="Vermelho"></option>
+            <option value="Outros"></option>
+          </datalist>
 
           <label for="example" class="form-label"> Tipo de cliente </label>
           <input
@@ -73,7 +79,6 @@
             <option value="Convênio"></option>
             <option value="Mensalista"></option>
           </datalist>
-
         </div>
       </div>
       <div class="modal-footer">
@@ -90,34 +95,34 @@
   <table class="table caption-top">
     <thead class="table-dark">
       <tr>
-        <th scope="col"> Nome </th>
-        <th scope="col"> Email</th>
-        <th scope="col"> Carro </th>
+        <th scope="col">Nome</th>
+        <th scope="col">Email</th>
+        <th scope="col">Carro</th>
         <th scope="col">Cor</th>
-        <th scope="col"> Tipo</th>
+        <th scope="col">Tipo</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row"> Pessoa1</th>
-        <td> pessoa@gmail.com</td>
+        <th scope="row">Pessoa1</th>
+        <td>pessoa@gmail.com</td>
         <td>Celta</td>
         <td>#000</td>
-        <td> Mensalista</td>
+        <td>Mensalista</td>
       </tr>
       <tr>
-      <th scope="row"> Pessoa2</th>
-      <td> pessoa2@gmail.com</td>
-      <td>Honda</td>
-      <td>#000</td>
-      <td>  Convênio </td>
+        <th scope="row">Pessoa2</th>
+        <td>pessoa2@gmail.com</td>
+        <td>Honda</td>
+        <td>#000</td>
+        <td>Convênio</td>
       </tr>
       <tr>
-      <th scope="row"> Pessoa3 </th>
-      <td> pessoa3@gmail.com</td>
-      <td> Fox </td>
-      <td>#000</td>
-      <td> Mensalista</td>
+        <th scope="row">Pessoa3</th>
+        <td>pessoa3@gmail.com</td>
+        <td>Fox</td>
+        <td>#000</td>
+        <td>Mensalista</td>
       </tr>
     </tbody>
   </table>
