@@ -9,8 +9,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { EntradaComponent } from './entrada/entrada.component';
 import { SaidaComponent } from './saida/saida.component';
-import {ClienteComponent} from './cliente/cliente.component';
-import {HistoricoComponent} from './historico/historico.component';
+import { ClienteComponent } from './cliente/cliente.component';
+import { HistoricoComponent } from './historico/historico.component';
+import { VeiculoService } from './veiculo.service';
 
 @NgModule({
   imports: [
@@ -21,8 +22,8 @@ import {HistoricoComponent} from './historico/historico.component';
       { path: 'login', component: LoginComponent },
       { path: 'entrada', component: EntradaComponent },
       { path: 'saida', component: SaidaComponent },
-      { path: 'cliente', component: ClienteComponent},
-      { path: 'historico', component: HistoricoComponent}
+      { path: 'cliente', component: ClienteComponent },
+      { path: 'historico', component: HistoricoComponent },
     ]),
   ],
   declarations: [
@@ -33,8 +34,9 @@ import {HistoricoComponent} from './historico/historico.component';
     EntradaComponent,
     SaidaComponent,
     ClienteComponent,
-    HistoricoComponent
+    HistoricoComponent,
   ],
   bootstrap: [AppComponent],
+  providers: [VeiculoService],
 })
 export class AppModule {}
