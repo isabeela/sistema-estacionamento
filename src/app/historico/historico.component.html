@@ -1,18 +1,16 @@
 <app-navbar> </app-navbar>
 
 <div class="titulo">
-  <h1> Histórico </h1>
+  <h1>Histórico</h1>
 
-
-<button
-  type="button"
-  class="btn btn-primary"
-  data-bs-toggle="modal"
-  data-bs-target="#exampleModal"
->
-  Consultar histórico
-</button>
-
+  <button
+    type="button"
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    Consultar histórico
+  </button>
 </div>
 
 <div
@@ -25,7 +23,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"> Histórico </h5>
+        <h5 class="modal-title" id="exampleModalLabel">Histórico</h5>
         <button
           type="button"
           class="btn-close"
@@ -35,8 +33,9 @@
       </div>
       <div class="modal-body">
         <div class="form-group col-md-6">
-         
-          <label for="exampleDataList" class="form-label"> Consultar por </label>
+          <label for="exampleDataList" class="form-label">
+            Consultar por
+          </label>
           <input
             class="form-control"
             list="datalistOptions"
@@ -45,10 +44,9 @@
           />
           <datalist id="datalistOptions">
             <option value="Mês/Ano"></option>
-            <option value="Modelo"></option>
+            <option value="Placa"></option>
             <option value="Valor"></option>
           </datalist>
-
         </div>
       </div>
       <div class="modal-footer">
